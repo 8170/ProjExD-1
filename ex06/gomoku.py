@@ -114,8 +114,8 @@ class Gobang():
     def intersection(self, x, y):
         '''キャンバス上の座標を交点の位置に変換'''
 
-        ix = (x - self.offset_x + self.interval // 2) // self.interval
-        iy = (y - self.offset_y + self.interval // 2) // self.interval
+        ix = (x - self.offset_x + self.interval // 2) // self.interval#ユーザがクリックした位置に一番近い交点(x座標)を計算する。
+        iy = (y - self.offset_y + self.interval // 2) // self.interval#ユーザがクリックした位置に一番近い交点(y座標)を計算する。
 
         return ix, iy
 
