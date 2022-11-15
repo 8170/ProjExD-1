@@ -189,9 +189,9 @@ class Gobang():
         '''ゲーム終了時の結果を表示する'''
         winner = self.player
         if winner == PLAYER1:
-            messagebox.showinfo('結果', 'プレイヤー1の勝ち')
+            messagebox.showinfo('結果', '黒石のプレイヤーの勝ち')
         else:
-            messagebox.showinfo('結果', 'プレイヤー2の勝ち')
+            messagebox.showinfo('結果', '白石のプレイヤーの勝ち')
     
 
 if __name__ == "__main__":
